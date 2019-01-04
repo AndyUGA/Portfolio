@@ -4,24 +4,6 @@ body, html {
 
 }
 
-.bg {
-  /* The image used */
-  background-image: url("tech.jpg");
-    
-
-  /* Full height */
-  height: 100%;  
-  max-width: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    
-}
-
-.overlay {
-    background-color: red;
-}
 
 .text {
   text-align: center;
@@ -49,4 +31,8 @@ body, html {
     ),
     /* your image */
     url(tech.jpg);
+}
+
+.projectHeading {
+    text-align: center;
 }
