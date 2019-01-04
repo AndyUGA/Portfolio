@@ -7,18 +7,21 @@ body, html {
 .bg {
   /* The image used */
   background-image: url("tech.jpg");
+    
 
   /* Full height */
-  height: 100%; 
-
+  height: 100%;  
+  max-width: 100%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
     
- 
 }
 
+.overlay {
+    background-color: red;
+}
 
 .text {
   text-align: center;
@@ -30,4 +33,20 @@ body, html {
   font-family: "Helvetica", Times, serif;
   font-size: 50px;
   font-weight: bold;
+}
+
+.testbg {
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(4, 9, 30, 0.5), 
+      rgba(4, 9, 30, 0.5)
+    ),
+    /* your image */
+    url(tech.jpg);
 }
