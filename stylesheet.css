@@ -35,9 +35,14 @@ body, html {
 
 .projectHeading {
     text-align: center;
-<<<<<<< HEAD
 }
 
-=======
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
 }
->>>>>>> parent of 8469e6c... Added responsive images
