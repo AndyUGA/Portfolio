@@ -30,7 +30,7 @@ body, html {
       rgba(4, 9, 30, 0.5)
     ),
     /* your image */
-    url(tech.jpg);
+    url(img/banner/tech.jpg);
 }
 
 .projectHeading {
@@ -43,6 +43,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
-  
+  width: 70%;
+
 }
