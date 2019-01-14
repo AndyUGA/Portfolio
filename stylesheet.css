@@ -47,4 +47,20 @@ body, html {
 
 }
 
+.textright {
+    float: right;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+
 
