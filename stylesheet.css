@@ -33,6 +33,27 @@ body, html {
     url(img/banner/tech.jpg);
 }
 
+
+.testbg {
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(4, 9, 30, 0.5), 
+      rgba(4, 9, 30, 0.5)
+    ),
+    /* your image */
+    url(img/banner/tech.jpg);
+}
+
+
+
+
+
 .projectHeading {
     text-align: center;
 }
@@ -40,10 +61,8 @@ body, html {
 
 
 .projectIcon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+  width: 100%;
+  height: auto;
 
 }
 
