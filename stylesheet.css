@@ -22,6 +22,18 @@ body, html {
   font-weight: bold;
 }
 
+.temp {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mainCard {
+
+    width: 30%;
+    
+}
+
 
 
 
