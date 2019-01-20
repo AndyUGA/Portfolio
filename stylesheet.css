@@ -58,12 +58,12 @@ body, html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   font-size: 19px;
   box-sizing: border-box;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgb(250, 50, 50);
+  box-shadow: 0 20px 50px rgb(250, 100, 100);
   border: 2px solid black;
   color: white;
   padding: 20px;
@@ -71,7 +71,7 @@ body, html {
 
 .box h2 {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 36px;
 }
 .box:before{
   content: '';
@@ -99,12 +99,13 @@ body, html {
   bottom:15px;
   border:1px solid red;
   padding:20px;
-  
+  text-align: center;
   box-shadow: 0 5px 10px rgba(9,0,0,0.5);
   
 }
 
 .box span{
+
   position: absolute;
   top: 0;
   left: 0;
