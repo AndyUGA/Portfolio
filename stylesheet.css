@@ -33,6 +33,11 @@ body, html {
     url(img/banner/tech.jpg);
 }
 
+.testClass {
+    height: 100%;
+    margin: 0;
+}
+
 
 
 
