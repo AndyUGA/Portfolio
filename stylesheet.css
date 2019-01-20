@@ -137,7 +137,11 @@ color: red;
     typing 3.5s steps(40, end),
     blink-caret .75s step-end 5;
     border-right: .15em solid transparent;
+    
+    
 }
+    
+
 
 /* The typing effect */
 @keyframes typing {
