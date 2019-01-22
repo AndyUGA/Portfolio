@@ -201,6 +201,7 @@ footer {
     color: white;
     border-color: white;
     font-size: 22px;
+    border: 0px;
 }
 
 .menuButton:hover {
