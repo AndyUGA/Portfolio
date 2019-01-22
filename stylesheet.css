@@ -52,10 +52,16 @@ body, html {
     color: red;
 }
 
+.name {
+    font-weight: bold;
+    font-size: 35px;
+}
 
+.info {
+    font-size: 20px;
+    font-weight:bold;
+}
 
-
-.content h2{ font-size:19px;}
 
 .box{
     position: absolute;
