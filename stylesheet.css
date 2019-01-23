@@ -307,9 +307,11 @@ footer {
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
         typing 3s steps(40, end),
-        blink-caret .75s step-end 6;
+        blink-caret .75s step-end 61;
     border-right: .15em solid transparent;
 }
+
+
 
 /* The typing effect */
 @keyframes typing {
@@ -331,7 +333,7 @@ footer {
         margin: 0 auto; /* Gives that scrolling effect as the typing happens */
         letter-spacing: .15em; /* Adjust as needed */
         animation: 
-            typing 3.5s steps(40, end),
+            typing 2.5s steps(40, end),
             blink-caret .75s step-end 5;
         border-right: .15em solid transparent;
 
