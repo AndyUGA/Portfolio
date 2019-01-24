@@ -29,8 +29,17 @@
 
 .bannerIMG {
     width: 80px;
-
 }
+
+.github, .preview{
+
+    text-align: center;
+}
+
+.github > a, .preview >a{
+    color: red;
+}
+
 
 
 
