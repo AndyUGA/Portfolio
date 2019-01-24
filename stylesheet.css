@@ -23,7 +23,14 @@ footer {
     padding: 25px;
 }
 
+img {
+    width: 50%;
+    height: auto;
+}
 
+.tempText {
+    color: white;
+}
 
 
 .text {
@@ -307,7 +314,7 @@ footer {
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
         typing 3s steps(40, end),
-        blink-caret .75s step-end 61;
+        blink-caret .75s step-end 6;
     border-right: .15em solid transparent;
 }
 
@@ -322,8 +329,10 @@ footer {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: red; }
+    60% { border-color: red; }
 }
+
+
 
 @media screen and (max-width: 830px) {
     .typewriter h1 {
@@ -339,6 +348,7 @@ footer {
 
 
     }
+   
 
 
 
