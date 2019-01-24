@@ -225,7 +225,7 @@ img {
             rgba(4, 9, 30, 0.5)
         ),
         /* your image */
-        url(img/banner/tech.jpg);
+        url(img/background/tech.jpg);
 }
 
 .testbg2 {
@@ -241,7 +241,7 @@ img {
             rgba(4, 9, 30, 0.5)
         ),
         /* your image */
-        url(img/banner/tech2.jpg);
+        url(img/background/tech2.jpg);
 }
 
 .testbg3 {
@@ -257,7 +257,7 @@ img {
             rgba(4, 9, 30, 0.5)
         ),
         /* your image */
-        url(img/banner/tech3.jpg);
+        url(img/background/tech3.jpg);
 }
 
 
