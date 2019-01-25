@@ -345,9 +345,25 @@ img {
             typing 2.5s steps(40, end),
             blink-caret .75s step-end 5;
         border-right: .15em solid transparent;
-
+        
 
     }
+    
+    .testbg3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        /* top, transparent red */
+        linear-gradient(
+            rgba(4, 9, 30, .5), 
+            rgba(4, 9, 30, 0.5)
+        ),
+        /* your image */
+        url();
+}
    
 
 
