@@ -47,6 +47,10 @@ img {
     width: 50px;
 }
 
+.link {
+    color: red;
+}
+
 
 .text {
     text-align: center;
