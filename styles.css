@@ -134,7 +134,7 @@ section {
 
 .bigtitle-title {
   color: white;
-  background-color: var(--red);
+  background-color: #d50000;
   margin-bottom: 10px;
   text-align: center;
 }
