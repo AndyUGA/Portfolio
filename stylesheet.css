@@ -352,9 +352,9 @@ img {
     .testbg3 {
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     width: 100%;
-    height: 100%;
+    height: 10000px;
     background-image: 
         /* top, transparent red */
         linear-gradient(
@@ -362,7 +362,7 @@ img {
             rgba(4, 9, 30, 0.5)
         ),
         /* your image */
-        url();
+        url(img/background/tech3.jpg);
 }
    
 
