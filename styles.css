@@ -86,9 +86,10 @@ body {
 }
 
 main {    
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 20px;
+
 }
 
 header {
@@ -166,6 +167,7 @@ section {
     background-color: #d50000;
     margin-bottom: 10px;
     text-align: center;
+
 }
 
 .bigbottom-link {
